@@ -260,7 +260,7 @@ const SpeedTypingGame = () => {
                 onKeyDown={handleKeyDown}
             />
 
-            {(isTyping == false) && timeLeft > 0 &&(
+            {(isTyping == false) && timeLeft > 0 && WPM > 0 &&(
                 <p>Congratulations! Check out your stats below!</p>
             )}
 
