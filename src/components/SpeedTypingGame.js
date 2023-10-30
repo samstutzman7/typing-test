@@ -261,7 +261,7 @@ const SpeedTypingGame = () => {
             />
 
             {(isTyping == false) && timeLeft > 0 && WPM > 0 &&(
-                <p>Congratulations! Check out your stats below!</p>
+                <p>Congratulations! Check out your stats below.</p>
             )}
 
             {timeLeft === 0 && <p>Time's Up! Check out your stats below!</p>}
